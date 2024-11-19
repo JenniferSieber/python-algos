@@ -21,7 +21,6 @@ print(valid_anagram_01('rat', 'car'))
 from collections import Counter
 def valid_anagram_02(s, t):
     return Counter(s) == Counter(t)
-print("solution 2")
 print(valid_anagram_02('anagram', 'nagaram'))
 print(valid_anagram_02('rat', 'car'))
 
