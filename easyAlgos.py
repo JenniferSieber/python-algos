@@ -1,5 +1,4 @@
 # Valid Anagram 
-
 # solution creating hashmap
 def valid_anagram_01(s,t):
     if len(s) != len(t):
@@ -15,7 +14,6 @@ def valid_anagram_01(s,t):
     return True
 print(valid_anagram_01('anagram', 'nagaram'))
 print(valid_anagram_01('rat', 'car'))
-
 
 # solution using Counter
 from collections import Counter
@@ -41,3 +39,4 @@ def replaceElements(arr):
         rightMax = newMax  
     return arr
 print(replaceElements([17,18,5,4,6,1]))
+#############################
